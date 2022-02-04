@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@700&family=Press+Start+2P&family=Quando&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Marvel', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Estilização do menu */ 
+.logo-menu {
+    width: 250px;
+    padding: 7px 0;
+}
+
+.barra-top {
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(4px);
+    position:fixed;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+ul li a {
+    color: white;
+    font-size: 20px;
+    transition: ease-in-out 0.3s;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: yellow;
+}
+
+.centralizador {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* Fim da estilização do menu */
+
+/* Estilização do início */
+.inicio {
+    height: 100vh;
+    background: linear-gradient(63.26deg, #001964 0.58%, #688EFF 100.83%);
+    display: flex;
+    align-items: center;
+}
+
+.protetor {
+    width: 100%;
+}
+
+.parte1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.linha {
+    height: 6px;
+    border-radius: 20px;
+    width: 100%;
+    background: #B09D0B;
+}
+
+.paragrafo1 {
+    font-size: 60px;
+    color: #FFE81C;
+}
+
+.paragrafo2 {
+    font-size: 27px;
+    color: white;
+}
+
+.instagram {
+    background: linear-gradient(90deg, #B09D0B 0%, #FFE81C 100%);
+    border-radius: 25px;
+    text-align: center;
+    width: 275px;
+}
+
+.instagram-link {
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    padding: 7px 0;
+    color: #001964;
+}
+
+.logo2 {
+    width: 325px;
+}
